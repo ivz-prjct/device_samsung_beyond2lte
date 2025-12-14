@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beyond2lte.mk
+    $(LOCAL_DIR)/afterlife_beyond2lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_beyond2lte-eng \
-    lineage_beyond2lte-user \
-    lineage_beyond2lte-userdebug
+    afterlife_beyond2lte-eng \
+    afterlife_beyond2lte-user \
+    afterlife_beyond2lte-userdebug

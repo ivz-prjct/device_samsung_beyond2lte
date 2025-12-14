@@ -33,11 +33,18 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common AfterlifeOS stuff
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
+
+# Afterlife Flags
+AFTERLIFE_MAINTAINER := Iverz
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+AFTERLIFE_GAPPS := basic
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyond2lte
+PRODUCT_NAME := afterlife_beyond2lte
 PRODUCT_DEVICE := beyond2lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G975F
