@@ -41,7 +41,6 @@ AFTERLIFE_MAINTAINER := Iverz
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
-AFTERLIFE_GAPPS := basic
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := afterlife_beyond2lte
